@@ -3,9 +3,27 @@ h1 {
 }
 
 body {
-  background: lightskyblue;
+  background: #fd9267;
 }
 
-a {
+p {
+  max-width: 500px;
+  text-align: center;
+  margin: auto;
+}
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+}
+.links {
+  display: flex;
+  justify-content: space-evenly;
   color: purple;
+  margin: 20px;
+}
+
+.croissant-photo {
+  max-width: 500px;
+  display: block;
+  margin: auto auto 20px;
 }
