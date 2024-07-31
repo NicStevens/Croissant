@@ -16,10 +16,12 @@ p {
   margin: 30px auto;
 }
 .links {
-  display: flex;
-  justify-content: space-evenly;
+  text-align: center;
+}
+
+.links a {
   color: purple;
-  margin: 20px;
+  margin: 20px 10px;
 }
 
 .croissant-photo {
